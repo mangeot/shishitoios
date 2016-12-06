@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3D209D61DF6C2E100DEB270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D209D51DF6C2E100DEB270 /* AppDelegate.swift */; };
+		A3D209D81DF6C2E100DEB270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D209D71DF6C2E100DEB270 /* ViewController.swift */; };
+		A3D209DB1DF6C2E100DEB270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D209D91DF6C2E100DEB270 /* Main.storyboard */; };
+		A3D209DD1DF6C2E100DEB270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3D209DC1DF6C2E100DEB270 /* Assets.xcassets */; };
+		A3D209E01DF6C2E100DEB270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D209DE1DF6C2E100DEB270 /* LaunchScreen.storyboard */; };
+		A3D209EB1DF6C2E100DEB270 /* shishitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D209EA1DF6C2E100DEB270 /* shishitoTests.swift */; };
+		A3D209F61DF6C2E100DEB270 /* shishitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D209F51DF6C2E100DEB270 /* shishitoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3D209E71DF6C2E100DEB270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D209CA1DF6C2E100DEB270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D209D11DF6C2E100DEB270;
+			remoteInfo = shishito;
+		};
+		A3D209F21DF6C2E100DEB270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3D209CA1DF6C2E100DEB270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3D209D11DF6C2E100DEB270;
+			remoteInfo = shishito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3D209D21DF6C2E100DEB270 /* shishito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shishito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D209D51DF6C2E100DEB270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3D209D71DF6C2E100DEB270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3D209DA1DF6C2E100DEB270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3D209DC1DF6C2E100DEB270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3D209DF1DF6C2E100DEB270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3D209E11DF6C2E100DEB270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D209E61DF6C2E100DEB270 /* shishitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shishitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D209EA1DF6C2E100DEB270 /* shishitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shishitoTests.swift; sourceTree = "<group>"; };
+		A3D209EC1DF6C2E100DEB270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D209F11DF6C2E100DEB270 /* shishitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shishitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D209F51DF6C2E100DEB270 /* shishitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shishitoUITests.swift; sourceTree = "<group>"; };
+		A3D209F71DF6C2E100DEB270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3D209CF1DF6C2E100DEB270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D209E31DF6C2E100DEB270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D209EE1DF6C2E100DEB270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3D209C91DF6C2E100DEB270 = {
+			isa = PBXGroup;
+			children = (
+				A3D209D41DF6C2E100DEB270 /* shishito */,
+				A3D209E91DF6C2E100DEB270 /* shishitoTests */,
+				A3D209F41DF6C2E100DEB270 /* shishitoUITests */,
+				A3D209D31DF6C2E100DEB270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3D209D31DF6C2E100DEB270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3D209D21DF6C2E100DEB270 /* shishito.app */,
+				A3D209E61DF6C2E100DEB270 /* shishitoTests.xctest */,
+				A3D209F11DF6C2E100DEB270 /* shishitoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3D209D41DF6C2E100DEB270 /* shishito */ = {
+			isa = PBXGroup;
+			children = (
+				A3D209D51DF6C2E100DEB270 /* AppDelegate.swift */,
+				A3D209D71DF6C2E100DEB270 /* ViewController.swift */,
+				A3D209D91DF6C2E100DEB270 /* Main.storyboard */,
+				A3D209DC1DF6C2E100DEB270 /* Assets.xcassets */,
+				A3D209DE1DF6C2E100DEB270 /* LaunchScreen.storyboard */,
+				A3D209E11DF6C2E100DEB270 /* Info.plist */,
+			);
+			path = shishito;
+			sourceTree = "<group>";
+		};
+		A3D209E91DF6C2E100DEB270 /* shishitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D209EA1DF6C2E100DEB270 /* shishitoTests.swift */,
+				A3D209EC1DF6C2E100DEB270 /* Info.plist */,
+			);
+			path = shishitoTests;
+			sourceTree = "<group>";
+		};
+		A3D209F41DF6C2E100DEB270 /* shishitoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3D209F51DF6C2E100DEB270 /* shishitoUITests.swift */,
+				A3D209F71DF6C2E100DEB270 /* Info.plist */,
+			);
+			path = shishitoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3D209D11DF6C2E100DEB270 /* shishito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D209FA1DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishito" */;
+			buildPhases = (
+				A3D209CE1DF6C2E100DEB270 /* Sources */,
+				A3D209CF1DF6C2E100DEB270 /* Frameworks */,
+				A3D209D01DF6C2E100DEB270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shishito;
+			productName = shishito;
+			productReference = A3D209D21DF6C2E100DEB270 /* shishito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3D209E51DF6C2E100DEB270 /* shishitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D209FD1DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishitoTests" */;
+			buildPhases = (
+				A3D209E21DF6C2E100DEB270 /* Sources */,
+				A3D209E31DF6C2E100DEB270 /* Frameworks */,
+				A3D209E41DF6C2E100DEB270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D209E81DF6C2E100DEB270 /* PBXTargetDependency */,
+			);
+			name = shishitoTests;
+			productName = shishitoTests;
+			productReference = A3D209E61DF6C2E100DEB270 /* shishitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3D209F01DF6C2E100DEB270 /* shishitoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D20A001DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishitoUITests" */;
+			buildPhases = (
+				A3D209ED1DF6C2E100DEB270 /* Sources */,
+				A3D209EE1DF6C2E100DEB270 /* Frameworks */,
+				A3D209EF1DF6C2E100DEB270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D209F31DF6C2E100DEB270 /* PBXTargetDependency */,
+			);
+			name = shishitoUITests;
+			productName = shishitoUITests;
+			productReference = A3D209F11DF6C2E100DEB270 /* shishitoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3D209CA1DF6C2E100DEB270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Université Savoie Mont Blanc";
+				TargetAttributes = {
+					A3D209D11DF6C2E100DEB270 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 738C8VDENR;
+						ProvisioningStyle = Automatic;
+					};
+					A3D209E51DF6C2E100DEB270 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 738C8VDENR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3D209D11DF6C2E100DEB270;
+					};
+					A3D209F01DF6C2E100DEB270 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 738C8VDENR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3D209D11DF6C2E100DEB270;
+					};
+				};
+			};
+			buildConfigurationList = A3D209CD1DF6C2E100DEB270 /* Build configuration list for PBXProject "shishito" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3D209C91DF6C2E100DEB270;
+			productRefGroup = A3D209D31DF6C2E100DEB270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3D209D11DF6C2E100DEB270 /* shishito */,
+				A3D209E51DF6C2E100DEB270 /* shishitoTests */,
+				A3D209F01DF6C2E100DEB270 /* shishitoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3D209D01DF6C2E100DEB270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D209E01DF6C2E100DEB270 /* LaunchScreen.storyboard in Resources */,
+				A3D209DD1DF6C2E100DEB270 /* Assets.xcassets in Resources */,
+				A3D209DB1DF6C2E100DEB270 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D209E41DF6C2E100DEB270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D209EF1DF6C2E100DEB270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3D209CE1DF6C2E100DEB270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D209D81DF6C2E100DEB270 /* ViewController.swift in Sources */,
+				A3D209D61DF6C2E100DEB270 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D209E21DF6C2E100DEB270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D209EB1DF6C2E100DEB270 /* shishitoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D209ED1DF6C2E100DEB270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3D209F61DF6C2E100DEB270 /* shishitoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3D209E81DF6C2E100DEB270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D209D11DF6C2E100DEB270 /* shishito */;
+			targetProxy = A3D209E71DF6C2E100DEB270 /* PBXContainerItemProxy */;
+		};
+		A3D209F31DF6C2E100DEB270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3D209D11DF6C2E100DEB270 /* shishito */;
+			targetProxy = A3D209F21DF6C2E100DEB270 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3D209D91DF6C2E100DEB270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D209DA1DF6C2E100DEB270 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3D209DE1DF6C2E100DEB270 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3D209DF1DF6C2E100DEB270 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3D209F81DF6C2E100DEB270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3D209F91DF6C2E100DEB270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3D209FB1DF6C2E100DEB270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 738C8VDENR;
+				INFOPLIST_FILE = shishito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.jibiki.shishito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A3D209FC1DF6C2E100DEB270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 738C8VDENR;
+				INFOPLIST_FILE = shishito/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.jibiki.shishito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A3D209FE1DF6C2E100DEB270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 738C8VDENR;
+				INFOPLIST_FILE = shishitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.jibiki.shishitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shishito.app/shishito";
+			};
+			name = Debug;
+		};
+		A3D209FF1DF6C2E100DEB270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 738C8VDENR;
+				INFOPLIST_FILE = shishitoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.jibiki.shishitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shishito.app/shishito";
+			};
+			name = Release;
+		};
+		A3D20A011DF6C2E100DEB270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 738C8VDENR;
+				INFOPLIST_FILE = shishitoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.jibiki.shishitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shishito;
+			};
+			name = Debug;
+		};
+		A3D20A021DF6C2E100DEB270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 738C8VDENR;
+				INFOPLIST_FILE = shishitoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.jibiki.shishitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shishito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3D209CD1DF6C2E100DEB270 /* Build configuration list for PBXProject "shishito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D209F81DF6C2E100DEB270 /* Debug */,
+				A3D209F91DF6C2E100DEB270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3D209FA1DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D209FB1DF6C2E100DEB270 /* Debug */,
+				A3D209FC1DF6C2E100DEB270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3D209FD1DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D209FE1DF6C2E100DEB270 /* Debug */,
+				A3D209FF1DF6C2E100DEB270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3D20A001DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishitoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3D20A011DF6C2E100DEB270 /* Debug */,
+				A3D20A021DF6C2E100DEB270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3D209CA1DF6C2E100DEB270 /* Project object */;
+}
