@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CD37AE30A9EF7C3676CFDAF /* Pods_shishitoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5848F52F39D529F8CE9CFB10 /* Pods_shishitoTests.framework */; };
+		A1159029C4B4FC05036FF961 /* Pods_shishitoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8819CF0794F8A523A1FFC1 /* Pods_shishitoUITests.framework */; };
 		A3D209D61DF6C2E100DEB270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D209D51DF6C2E100DEB270 /* AppDelegate.swift */; };
 		A3D209D81DF6C2E100DEB270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D209D71DF6C2E100DEB270 /* ViewController.swift */; };
 		A3D209DB1DF6C2E100DEB270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D209D91DF6C2E100DEB270 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		A3D209E01DF6C2E100DEB270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D209DE1DF6C2E100DEB270 /* LaunchScreen.storyboard */; };
 		A3D209EB1DF6C2E100DEB270 /* shishitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D209EA1DF6C2E100DEB270 /* shishitoTests.swift */; };
 		A3D209F61DF6C2E100DEB270 /* shishitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D209F51DF6C2E100DEB270 /* shishitoUITests.swift */; };
+		A3D20A041DF6D99C00DEB270 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D20A031DF6D99C00DEB270 /* TableViewCell.swift */; };
+		E3818C1A603FF2F4C6A72047 /* Pods_shishito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B1EB048B50ED81B35FD549 /* Pods_shishito.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B39779F369BA8259EE8DA4C /* Pods-shishitoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shishitoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shishitoTests/Pods-shishitoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5037BD8CBC3E20292A541E10 /* Pods-shishito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shishito.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shishito/Pods-shishito.debug.xcconfig"; sourceTree = "<group>"; };
+		5848F52F39D529F8CE9CFB10 /* Pods_shishitoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shishitoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC0E052C7E489C27DEC3B7B /* Pods-shishitoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shishitoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-shishitoUITests/Pods-shishitoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		71E84B6370E2425B0BAE0ABD /* Pods-shishitoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shishitoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-shishitoTests/Pods-shishitoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E8819CF0794F8A523A1FFC1 /* Pods_shishitoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shishitoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11DC3022489A2A032DBA827 /* Pods-shishito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shishito.release.xcconfig"; path = "Pods/Target Support Files/Pods-shishito/Pods-shishito.release.xcconfig"; sourceTree = "<group>"; };
 		A3D209D21DF6C2E100DEB270 /* shishito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shishito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D209D51DF6C2E100DEB270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3D209D71DF6C2E100DEB270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		A3D209F11DF6C2E100DEB270 /* shishitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shishitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D209F51DF6C2E100DEB270 /* shishitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shishitoUITests.swift; sourceTree = "<group>"; };
 		A3D209F71DF6C2E100DEB270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3D20A031DF6D99C00DEB270 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		A5B1EB048B50ED81B35FD549 /* Pods_shishito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shishito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F808C7426A136A6179586B /* Pods-shishitoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shishitoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shishitoUITests/Pods-shishitoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3818C1A603FF2F4C6A72047 /* Pods_shishito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD37AE30A9EF7C3676CFDAF /* Pods_shishitoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1159029C4B4FC05036FF961 /* Pods_shishitoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE362FEFF464C3E653B8050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5B1EB048B50ED81B35FD549 /* Pods_shishito.framework */,
+				5848F52F39D529F8CE9CFB10 /* Pods_shishitoTests.framework */,
+				8E8819CF0794F8A523A1FFC1 /* Pods_shishitoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		593148FFFFA1B0D9200220D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5037BD8CBC3E20292A541E10 /* Pods-shishito.debug.xcconfig */,
+				A11DC3022489A2A032DBA827 /* Pods-shishito.release.xcconfig */,
+				4B39779F369BA8259EE8DA4C /* Pods-shishitoTests.debug.xcconfig */,
+				71E84B6370E2425B0BAE0ABD /* Pods-shishitoTests.release.xcconfig */,
+				C6F808C7426A136A6179586B /* Pods-shishitoUITests.debug.xcconfig */,
+				6DC0E052C7E489C27DEC3B7B /* Pods-shishitoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A3D209C91DF6C2E100DEB270 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				A3D209E91DF6C2E100DEB270 /* shishitoTests */,
 				A3D209F41DF6C2E100DEB270 /* shishitoUITests */,
 				A3D209D31DF6C2E100DEB270 /* Products */,
+				593148FFFFA1B0D9200220D6 /* Pods */,
+				1EE362FEFF464C3E653B8050 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +141,7 @@
 			children = (
 				A3D209D51DF6C2E100DEB270 /* AppDelegate.swift */,
 				A3D209D71DF6C2E100DEB270 /* ViewController.swift */,
+				A3D20A031DF6D99C00DEB270 /* TableViewCell.swift */,
 				A3D209D91DF6C2E100DEB270 /* Main.storyboard */,
 				A3D209DC1DF6C2E100DEB270 /* Assets.xcassets */,
 				A3D209DE1DF6C2E100DEB270 /* LaunchScreen.storyboard */,
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3D209FA1DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishito" */;
 			buildPhases = (
+				B1095E709C138CA42E10FE1C /* [CP] Check Pods Manifest.lock */,
 				A3D209CE1DF6C2E100DEB270 /* Sources */,
 				A3D209CF1DF6C2E100DEB270 /* Frameworks */,
 				A3D209D01DF6C2E100DEB270 /* Resources */,
+				C63CF739CFC315F26D91E5C4 /* [CP] Embed Pods Frameworks */,
+				461055C5BC678D65074EE217 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3D209FD1DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishitoTests" */;
 			buildPhases = (
+				7AF2A9F1F0EC1C16B1985A93 /* [CP] Check Pods Manifest.lock */,
 				A3D209E21DF6C2E100DEB270 /* Sources */,
 				A3D209E31DF6C2E100DEB270 /* Frameworks */,
 				A3D209E41DF6C2E100DEB270 /* Resources */,
+				6BB25DDB116C604F4CE538B1 /* [CP] Embed Pods Frameworks */,
+				CC5D6674DC96B4FADCC9D138 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A3D20A001DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishitoUITests" */;
 			buildPhases = (
+				1A7D914A7C8C58BC47AC979E /* [CP] Check Pods Manifest.lock */,
 				A3D209ED1DF6C2E100DEB270 /* Sources */,
 				A3D209EE1DF6C2E100DEB270 /* Frameworks */,
 				A3D209EF1DF6C2E100DEB270 /* Resources */,
+				6F42BB37DBE0B397076CB481 /* [CP] Embed Pods Frameworks */,
+				A7B9382E37F94EB5583F2B16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +309,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A7D914A7C8C58BC47AC979E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		461055C5BC678D65074EE217 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shishito/Pods-shishito-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BB25DDB116C604F4CE538B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shishitoTests/Pods-shishitoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F42BB37DBE0B397076CB481 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shishitoUITests/Pods-shishitoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF2A9F1F0EC1C16B1985A93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B9382E37F94EB5583F2B16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shishitoUITests/Pods-shishitoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1095E709C138CA42E10FE1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C63CF739CFC315F26D91E5C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shishito/Pods-shishito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5D6674DC96B4FADCC9D138 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shishitoTests/Pods-shishitoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A3D209CE1DF6C2E100DEB270 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3D20A041DF6D99C00DEB270 /* TableViewCell.swift in Sources */,
 				A3D209D81DF6C2E100DEB270 /* ViewController.swift in Sources */,
 				A3D209D61DF6C2E100DEB270 /* AppDelegate.swift in Sources */,
 			);
@@ -336,6 +527,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -386,6 +578,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -413,7 +606,9 @@
 		};
 		A3D209FB1DF6C2E100DEB270 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5037BD8CBC3E20292A541E10 /* Pods-shishito.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 738C8VDENR;
 				INFOPLIST_FILE = shishito/Info.plist;
@@ -426,7 +621,9 @@
 		};
 		A3D209FC1DF6C2E100DEB270 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11DC3022489A2A032DBA827 /* Pods-shishito.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 738C8VDENR;
 				INFOPLIST_FILE = shishito/Info.plist;
@@ -439,6 +636,7 @@
 		};
 		A3D209FE1DF6C2E100DEB270 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B39779F369BA8259EE8DA4C /* Pods-shishitoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +652,7 @@
 		};
 		A3D209FF1DF6C2E100DEB270 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E84B6370E2425B0BAE0ABD /* Pods-shishitoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +668,7 @@
 		};
 		A3D20A011DF6C2E100DEB270 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F808C7426A136A6179586B /* Pods-shishitoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 738C8VDENR;
@@ -483,6 +683,7 @@
 		};
 		A3D20A021DF6C2E100DEB270 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DC0E052C7E489C27DEC3B7B /* Pods-shishitoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 738C8VDENR;
@@ -514,6 +715,7 @@
 				A3D209FC1DF6C2E100DEB270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D209FD1DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishitoTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +724,7 @@
 				A3D209FF1DF6C2E100DEB270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3D20A001DF6C2E100DEB270 /* Build configuration list for PBXNativeTarget "shishitoUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +733,7 @@
 				A3D20A021DF6C2E100DEB270 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
