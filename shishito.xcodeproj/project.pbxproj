@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5CD37AE30A9EF7C3676CFDAF /* Pods_shishitoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5848F52F39D529F8CE9CFB10 /* Pods_shishitoTests.framework */; };
 		A1159029C4B4FC05036FF961 /* Pods_shishitoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8819CF0794F8A523A1FFC1 /* Pods_shishitoUITests.framework */; };
+		A37342981DFBEF1A006AF7EC /* shishito.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = A37342971DFBEF1A006AF7EC /* shishito.xcworkspace */; };
 		A3D209D61DF6C2E100DEB270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D209D51DF6C2E100DEB270 /* AppDelegate.swift */; };
 		A3D209D81DF6C2E100DEB270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D209D71DF6C2E100DEB270 /* ViewController.swift */; };
 		A3D209DB1DF6C2E100DEB270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3D209D91DF6C2E100DEB270 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		71E84B6370E2425B0BAE0ABD /* Pods-shishitoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shishitoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-shishitoTests/Pods-shishitoTests.release.xcconfig"; sourceTree = "<group>"; };
 		8E8819CF0794F8A523A1FFC1 /* Pods_shishitoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shishitoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A11DC3022489A2A032DBA827 /* Pods-shishito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shishito.release.xcconfig"; path = "Pods/Target Support Files/Pods-shishito/Pods-shishito.release.xcconfig"; sourceTree = "<group>"; };
+		A37342971DFBEF1A006AF7EC /* shishito.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = shishito.xcworkspace; sourceTree = "<group>"; };
 		A3D209D21DF6C2E100DEB270 /* shishito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shishito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D209D51DF6C2E100DEB270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3D209D71DF6C2E100DEB270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		A3D209C91DF6C2E100DEB270 = {
 			isa = PBXGroup;
 			children = (
+				A37342971DFBEF1A006AF7EC /* shishito.xcworkspace */,
 				A3D209D41DF6C2E100DEB270 /* shishito */,
 				A3D209E91DF6C2E100DEB270 /* shishitoTests */,
 				A3D209F41DF6C2E100DEB270 /* shishitoUITests */,
@@ -290,6 +293,7 @@
 				A3D209E01DF6C2E100DEB270 /* LaunchScreen.storyboard in Resources */,
 				A3D209DD1DF6C2E100DEB270 /* Assets.xcassets in Resources */,
 				A3D209DB1DF6C2E100DEB270 /* Main.storyboard in Resources */,
+				A37342981DFBEF1A006AF7EC /* shishito.xcworkspace in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

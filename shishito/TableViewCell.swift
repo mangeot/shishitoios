@@ -10,9 +10,8 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var jpn: UILabel!
-    @IBOutlet weak var hiragana: UILabel!
-    @IBOutlet weak var romaji: UILabel!
+    @IBOutlet weak var vedette: UILabel!
+    @IBOutlet weak var pos: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
